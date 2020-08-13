@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_page_price_boxes",
+  "info": {
+    "name": "priceBox",
+    "icon": "money-bill"
+  },
+  "options": {},
+  "attributes": {
+    "totalPrice": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    },
+    "numberInstallments": {
+      "type": "integer",
+      "min": 1,
+      "required": true
+    },
+    "priceInstallment": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    },
+    "benefits": {
+      "type": "richtext",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button",
+      "required": true
+    }
+  }
+}

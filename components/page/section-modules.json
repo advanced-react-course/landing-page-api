@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_section_modules",
+  "info": {
+    "name": "sectionModules",
+    "icon": "grip-horizontal"
+  },
+  "options": {},
+  "attributes": {
+    "modules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.modules",
+      "required": true,
+      "min": 2
+    }
+  }
+}
